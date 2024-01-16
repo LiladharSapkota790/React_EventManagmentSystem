@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+
+# Compiled files
+dist/
+build/
+*.log
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor-specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+ehthumbs.db
+Icon?
+[Tt]humbs.db
+*.DS_Store
+*.Spotlight-V100
+*.Trashes
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+logs/
+
+# Yarn
+yarn-error.log
+
+# NPM
+npm-debug.log
