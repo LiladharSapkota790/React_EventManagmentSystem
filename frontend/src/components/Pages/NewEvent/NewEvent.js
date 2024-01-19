@@ -12,7 +12,7 @@ const NewEvent = () => {
 export default NewEvent;
 
 export async function action({ request, params }) {
-  const data = request.formData();
+  const data = await request.formData();
 
   const eventData = {
     title: data.get('title'),
